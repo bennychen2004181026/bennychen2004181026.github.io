@@ -62,22 +62,22 @@ The portfolio website displays my work and provide target audience with ways of 
 
 ## Sitemap
 
-![SiteMap](./docs/SiteMap.png)
+![SiteMap](.//Resources/SiteMap.png)
 
 ## Screenshots
 
-![SiteMap](./docs/SiteMap.png)
-![Blogpage](./docs/Blogpage.png)
-![Homepage](./docs/Homepage.png)
-![Contactpage](./docs/Contactpage.png)
-![Projectpage](./docs/Projectpage.png)
-![Blogpost1](./docs/Blogpost1.png)
-![Blogpost2](./docs/Blogpost2.png)
-![Blogpost3](./docs/Blogpost3.png)
-![Blogpost4](./docs/Blogpost4.png)
-![Blogpost5](./docs/Blogpost4.png)
-![Repo](./docs/repopage.png)
-![GithubWebsite](./docs/GithubPortfolioWebsite.png)
+![SiteMap](.//Resources/SiteMap.png)
+![Blogpage](.//Resources/Blogpage.png)
+![Homepage](.//Resources/Homepage.png)
+![Contactpage](.//Resources/Contactpage.png)
+![Projectpage](.//Resources/Projectpage.png)
+![Blogpost1](.//Resources/Blogpost1.png)
+![Blogpost2](.//Resources/Blogpost2.png)
+![Blogpost3](.//Resources/Blogpost3.png)
+![Blogpost4](.//Resources/Blogpost4.png)
+![Blogpost5](.//Resources/Blogpost4.png)
+![Repo](.//Resources/repopage.png)
+![GithubWebsite](.//Resources/GithubPortfolioWebsite.png)
 
 ## Target audience
 
