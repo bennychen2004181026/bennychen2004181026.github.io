@@ -6,7 +6,7 @@ This is my first Portfolio website project.
 
 [Home page in GitHub](www.bennychen2004181026.github.io)
 
-[Gitgub Repo](https://github.com/bennychen2004181026/GuangJianChen_T1A2)
+[Gitgub Repo](https://github.com/bennychen2004181026/bennychen2004181026.github.io)
 
 ## Table of contents
 
@@ -62,20 +62,22 @@ The portfolio website displays my work and provide target audience with ways of 
 
 ## Sitemap
 
-![SiteMap](/Resources/SiteMap.png)
+![SiteMap](./docs/SiteMap.png)
 
 ## Screenshots
 
-![SiteMap](/Resources/Aboutpage.png)
-![Blogpage](/Resources/Blogpage.png)
-![Homepage](/Resources/Homepage.png)
-![Contactpage](/Resources/Contactpage.png)
-![Projectpage](/Resources/Projectpage.png)
-![Blogpost1](/Resources/Blogpost1.png)
-![Blogpost2](/Resources/Blogpost2.png)
-![Blogpost3](/Resources/Blogpost3.png)
-![Blogpost4](/Resources/Blogpost4.png)
-![Blogpost5](/Resources/Blogpost4.png)
+![SiteMap](./docs/SiteMap.png)
+![Blogpage](./docs/Blogpage.png)
+![Homepage](./docs/Homepage.png)
+![Contactpage](./docs/Contactpage.png)
+![Projectpage](./docs/Projectpage.png)
+![Blogpost1](./docs/Blogpost1.png)
+![Blogpost2](./docs/Blogpost2.png)
+![Blogpost3](./docs/Blogpost3.png)
+![Blogpost4](./docs/Blogpost4.png)
+![Blogpost5](./docs/Blogpost4.png)
+![Repo](./docs/repopage.png)
+![GithubWebsite](./docs/GithubPortfolioWebsite.png)
 
 ## Target audience
 
