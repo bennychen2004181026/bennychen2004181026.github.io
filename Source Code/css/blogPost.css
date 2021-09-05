@@ -1,0 +1,113 @@
+/* Blog post section */
+
+.postcontainer {
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    padding: 80px 0;
+    color: #222;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    line-height: 1.15;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: .6rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 1280px;
+}
+
+.blog-post-title {
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.blog-post-title-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.blog-post-logo-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: .3rem;
+}
+
+.blog-post-name {
+    margin: 0;
+    margin-left: .7rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.blog-author {
+    color: white;
+    width: 8rem;
+}
+
+.blog-post-image-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 3rem .1rem;
+}
+
+.blog-post-image {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.blog-post-text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin: 2rem 2rem;
+}
+
+.post-blog-return {
+    font-size: 1.6rem;
+    color: white;
+    width: 16rem;
+}
+
+.post-footer {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
