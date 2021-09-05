@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Ben Chen -- Web Developer</title>
+    <!-- All kinds of icons -->
+    <link sizes="16x16" type="image/png" rel="icon" href="./assets/logo-icon.png" />
+    <link sizes="32x32" type="image/png" rel="icon" href="./assets/logo-icon.png" />
+    <link sizes="96x96" type="image/png" rel="icon" href="./assets/logo-icon.png" />
+    <link sizes="192x192" type="image/png" rel="icon" href="./assets/logo-icon.png" />
+    <link sizes="57x57" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="60x60" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="72x72" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="76x76" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="114x114" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="120x120" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="144x144" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="152x152" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <link sizes="180x180" rel="apple-touch-icon" href="./assets/logo-icon.png" />
+    <!-- Reset css & Global css & Font family -->
+    <link rel="stylesheet" href="./css/reset.css" integrity="sha384-TZKnZ7uwbplRwm8mLs1ZbClfIow/jvHs9LwQyATrfZsxDFa4Q2BZ4cDPotgvoJNe" crossorigin="anonymous" type="text/css" />
+    <link rel="stylesheet" href="./css/global.css" integrity="sha384-K9QO8/3YrXmFBOLuo4cRgmn3mmNmFzoUxXAdCiGU5E+ICMJTVcHPtrIHPaGBjXip" crossorigin="anonymous" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&amp;display=swap" rel="stylesheet">
+
+    <!-- Font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/fa0ccd61ba.js"></script>
+</head>
+
+<body>
+    <!-- Header Navigation text & graphical Component -->
+    <header class="header container shorten">
+        <nav class="header-content container shorten">
+            <a aria-label="Logo to homepage" href="./index.html" class="header-logo-link"><img src="./assets/logo-icon.png" class="header-logo" alt="logo" width="32" height="32"><span class="header-logo-name">Ben Chen</span></a>
+            <div class="nav-links">
+                <a aria-label="About page" href="./about.html" class="nav-link"><span>About</span></a>
+                <a aria-label="Project page" href="./projects.html" class="nav-link"><span>Projects</span></a>
+                <a aria-label="Blog page" href="./blog.html" class="nav-link"><span>Blog</span></a>
+                <a aria-label="Contact page" href="./contact.html" class="nav-link"><span>Contacts</span></a>
+            </div>
+            <!-- Burger Menu -->
+            <div class="hidden container">
+                <nav class="header__nav nav-bar">
+                    <div class="toggle-menu">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-list-item"><a aria-label="homepage" href="./index.html" class="nav-menu">Home</a></li>
+                        <li class="nav-list-item"><a aria-label="About page" href="./about.html" class="nav-menu">About</a></li>
+                        <li class="nav-list-item">
+                            <a aria-label="Project page" href="./projects.html" class="nav-menu">Projects</a>
+                        </li>
+                        <li class="nav-list-item"><a aria-label="Blog page" href="./blog.html" class="nav-menu">Blog</a></li>
+                        <li class="nav-list-item">
+                            <a aria-label="Contact page" href="./contact.html" class="nav-menu">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main class="container">
+        <!-- Main and banner section text & graphical Component  -->
+        <section class="homeSection container">
+            <div class="homeSection-wrapper">
+                <h3 class="home-title"> Hi, there, </h3>
+                <h1 class="home-title-primary">I'm Ben Chen</h1>
+                <div class="home-description">
+                    <div>
+                    </div>
+                    <p>I’m a developer</p>
+
+                </div>
+                <a aria-label="Project page" href="./projects.html" class="home-button">Check My Work</a>
+            </div>
+            <div class="homeSection-img-container"><img class="homeSection-image" src="./images/banerImage.jpg" alt="bannerImage" /></div>
+        </section>
+        <!-- About section text & graphical Component -->
+        <section class="aboutSection container" id="about">
+            <div class="sectionHead">
+                <span>SOME INFO</span>
+                <h2 class="sectionHead-text">About Me...</h2>
+            </div>
+            <div class="about-intr">
+                <div class="about-intr-imgContainer"><img src="./images/meditation.jpg" alt="meditation" class="about-intr-img"></div>
+                <div class="about-intr-textContainer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut est enim, luctus sed aliquam ut, hendrerit finibus nibh. Phasellus eget tristique nisl, in egestas lorem. Sed porta purus vitae lorem pellentesque dignissim. Nam imperdiet
+                        condimentum purus in rhoncus. Aliquam sit amet libero eget ex tincidunt tempus eu in lorem. Ut cursus interdum turpis sit amet commodo. Mauris sagittis justo velit, egestas posuere ligula aliquet vitae. Phasellus eleifend in nibh
+                        in blandit.</p>
+
+                    <a aria-label="About page" class="about-intr-link" href="./about.html">Detail</a>
+
+                </div>
+            </div>
+            <!-- Project section text & graphical Component -->
+        </section>
+        <section class="projectSection container" id="projects">
+            <div class="sectionHead">
+                <span>SOME WORKS</span>
+                <h2 class="sectionHead-text">projects</h2>
+            </div>
+
+            <div class="projects-Container">
+                <article class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image" src="./images/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-Describe-Container">
+                        <h3>Project 1</h3>
+                        <p>
+                            Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus
+                            condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla
+                        </p>
+                        <div class="workLinks">
+                            <a aria-label="Repository" class="work-link" href="https://github.com/bennychen2004181026/bennychen2004181026.github.io">Repo</a>
+                            <a aria-label="Project page" class="work-link" href="./projects.html">Detail</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image" src="./images/project1.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-Describe-Container">
+                        <h3>Project 2</h3>
+                        <p>
+                            Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus
+                            condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla
+                        </p>
+                        <div class="workLinks">
+                            <a aria-label="Repository" class="work-link" href="https://github.com/bennychen2004181026/bennychen2004181026.github.io">Repo</a>
+                            <a aria-label="Project page" class="work-link" href="./projects.html">Detail</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-image-container">
+                        <img class="project-image" src="./images/project1.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-Describe-Container">
+                        <h3>Project 3</h3>
+                        <p>
+                            Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla Fusce sit amet libero ex. Phasellus
+                            condimentum, massa eget dignissim vestibulum, magna lectus vehicula nulla
+                        </p>
+                        <div class="workLinks">
+                            <a aria-label="Repository" class="work-link" href="https://github.com/bennychen2004181026/bennychen2004181026.github.io">Repo</a>
+                            <a aria-label="Project page" class="work-link" href="./projects.html">Detail</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Contact section text & graphical Component -->
+        <section class="contactSection container" id="contact">
+            <div class="sectionHead">
+                <span>Say Hi</span>
+                <h2 class="sectionHead-text">Contact</h2>
+            </div>
+            <div class="contactContainer">
+                <h2>Get in Touch</h2>
+                <ul class="contact-methods">
+                    <li class="typeBox">
+                        <a class="typeBox-anchor" aria-label="Email" href="mailto:ben83026@outlook.com"><i class="fa fa-envelope fa-3x"></i></a>
+                        <p>Email</p>
+                    </li>
+                    <li class="typeBox">
+                        <a class="typeBox-anchor" aria-label="Linkedin" href="https://www.linkedin.com/in/guangjian-chen-297b32203/"><i class="fa fa-linkedin fa-3x"></i></a>
+                        <p>Linkedin</p>
+                    </li>
+                    <li class="typeBox">
+                        <a class="typeBox-anchor" aria-label="Github" href="www.bennychen2004181026.github.io"><i class="fa fa-github fa-3x"></i></a>
+                        <p>GitHub</p>
+                    </li>
+                </ul>
+                <!-- Contact form submit -->
+                <div class="contactFormContainer">
+                    <h2 class="contactForm-text">Contact Form</h2>
+                    <form id="contactForm" action="form.php" method="POST">
+                        <label for="nameInput" class="srOnly"></label>
+                        <input type="text" id="nameInput" name="nameInput" class="nameInput" required="" placeholder="Your Name*">
+                        <label for="emailInput" class="srOnly"></label>
+                        <input type="email" id="emailInput" name="emailInput" class="emailInput" required="" placeholder="Your Email*">
+                        <label for="subjectInput" class="srOnly"></label>
+                        <input type="text" id="subjectInput" name="subjectInput" class="subjectInput" required="" placeholder="Subject*">
+                        <label for="messageInput" class="srOnly"></label>
+                        <textarea class="messageInput" name="messageInput" id="messageInput" required="" placeholder="Your Message*"></textarea>
+                    </form>
+                    <button type="submit" form="contactForm" rel="noopener noreferrer">SEND</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer text & graphical Component -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p> © Ben Chen 2021 </p>
+            <div class="footer-icon">
+                <a aria-label="homepage" class="icon-color" href="www.bennychen2004181026.github.io"><i class="fa fa-github"></i></a>
+                <a aria-label="Linkedin" class="icon-color" href="https://www.linkedin.com/in/guangjian-chen-297b32203/"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- JS of Nav Bar -->
+    <script>
+        var toggleButton = document.querySelector('.toggle-menu');
+
+        var navBar = document.querySelector('.nav-bar');
+
+        toggleButton.addEventListener('click', function() {
+
+            navBar.classList.toggle('toggle');
+
+        });
+    </script>
+
+</body>
+
+</html>
