@@ -1,0 +1,292 @@
+/* Blog section */
+
+.blog {
+    margin: 0 auto;
+    max-width: 1152px;
+    position: relative;
+    width: 95%;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.blog-title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.searchContainer {
+    margin-bottom: 3rem;
+    margin-top: .25rem;
+    border-radius: .375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 5.25rem;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.searchBar-logo-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    vertical-align: middle;
+    height: 1.25rem;
+    width: 1.25rem;
+    color: rgba(113, 113, 122);
+}
+
+.searchBar-logo {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: .75rem;
+}
+
+.searchBar-style {
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-color: #71717a;
+    border-width: 1px;
+    padding: .5rem .75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border-radius: .375rem;
+    padding-left: 2.5rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.blog-posts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.post-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    margin: 1rem .1rem;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.post-card-content {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: .3rem .8rem .1rem .2rem;
+}
+
+.post-card-title {
+    font-size: 20px;
+    position: relative;
+    padding-right: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.post-card-details {
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: .5rem;
+}
+
+.post-card-description {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.post-tag-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 0 solid #e5e7eb;
+}
+
+.post-tag {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.post-tag-title {
+    margin: 0;
+    border-radius: .75rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.post-tag-name {
+    margin: .8rem .5rem;
+    background-color: #e5e7eb;
+    border-radius: .75rem;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 6rem;
+}
+
+.project-link {
+    width: 6rem;
+    margin: .1rem .3rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.post-card-image {
+    border-radius: 10px;
+}
+
+.post-image {
+    height: 16rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post-card-image {
+    width: 50%;
+}
+
+.blogNavigation {
+    clear: both;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+/* Media Query for tablet view port and underr768px wide */
+
+@media screen and (max-width: 768px) {
+    html {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .post-card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        width: 100%;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    .post-card-content {
+        width: 100%;
+    }
+    .post-card-image {
+        width: 100%;
+    }
+    .toggle-menu {
+        right: 140px;
+    }
+}
+
+
+/* Media Query for phone view port and underr426px wide */
+
+@media screen and (max-width: 426px) {
+    .toggle-menu {
+        right: 40px;
+    }
+    .header-logo-link {
+        justify-content: flex-end;
+    }
+}
+
+
+/* Media Query for phone view port and underr376px wide */
+
+@media screen and (max-width: 376px) {
+    main .container {
+        margin-left: 1.6rem;
+    }
+    .header-logo-link {
+        margin-left: 2rem;
+    }
+}
+
+
+/* Media Query for phone view port and underr321px wide */
+
+@media screen and (max-width: 321px) {
+    main .container {
+        margin-left: 4rem;
+        width: 85%;
+    }
+    .header-logo-link {
+        margin-left: 4.5rem;
+    }
+}
