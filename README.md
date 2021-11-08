@@ -4,7 +4,7 @@ This is my first Portfolio website project.
 
 ## Links
 
-[Home page in GitHub](www.bennychen2004181026.github.io)
+[Home page in GitHub](https://bennychen2004181026.github.io/)
 
 [Gitgub Repo](https://github.com/bennychen2004181026/bennychen2004181026.github.io)
 
